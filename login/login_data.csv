@@ -1,0 +1,16 @@
+Test Suite,Enabled,Description,userName,password,errorMsg
+login,0,Enter empty username and empty password,,,Please input the user name Please input the password
+login,0,Enter empty username and password,,nofa,Please input the user name
+login,0,Enter non exist username and empty password,nfa,,Please input the password
+login,0,Enter non exist username and password,nfa,nofa,Bad credential.
+login,0,Enter valid username and empty password,jeni,,Please input the password
+login,1,Enter valid username and password less than 8bits,jeni,nofaNM,Bad credential.
+login,1,Enter valid username and password greater than 8bits,jeni,NMNofabcd,Bad credential.
+login,1,Enter incorrect username and correct password,aa,1122,Bad credential.
+login,1,Enter valid username and incorrect password,aqeela,nofaj,Bad credential.
+login,1,Enter valid username and password with symbols,jeni,nofa#,Bad credentials..
+login,1,Incorrect username  and pswd only with symbols ,%$^#%$RYT$%,dgf#$$%,Bad credentials..
+login,1,Enter valid username and password with numbers,jeni,no12341,Bad credential.
+login,1,Enter correct username and empty password,aqeela,,Please input the password
+login,1,Enter Empty user name and correct password,,1122,Please input the user name
+login,1,Enter valid username and correct password,aqeela,1122,NaN
