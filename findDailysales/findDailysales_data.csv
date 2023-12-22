@@ -1,0 +1,8 @@
+Test Suite,Enabled,Description,inSales,inSalesReturn,inPurchaseReturn,sales,salesReturn,purchaseReturn,Date,text
+findDailySales,1,Empty date,NaN,NaN,NaN,NaN,NaN,NaN,,Set the date
+findDailySales,1,find with sales,5000,NaN,NaN,NaN,NaN,NaN,NaN,Set the date
+findDailySales,1,find with sales return,NaN,2000,NaN,NaN,NaN,NaN,NaN,Set the date
+findDailySales,1,find with purchase return,NaN,NaN,250,NaN,NaN,NaN,NaN,Set the date
+findDailySales,1,find sales details with unsaved date,NaN,NaN,NaN,NaN,NaN,NaN,2022-12-10,NaN
+findDailySales,1,Find sales details using saved date,NaN,NaN,NaN,7500,3000,450,2020-05-08,NaN
+findDailySales,1,Find sales details using saved date,NaN,NaN,NaN,7000,800,100,2022-09-24,NaN

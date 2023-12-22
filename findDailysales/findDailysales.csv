@@ -1,0 +1,10 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+findDailySales,enter date,jas.app:id/trans_acDate,input,Date,
+findDailySales,enter sales,jas.app:id/split00_amt,input,inSales,
+findDailySales,enter return sales,jas.app:id/split01_amt,input,inSalesReturn,
+findDailySales,enter purchase_return,jas.app:id/split02_amt,input,inPurchaseReturn,
+findDailySales,click find button,jas.app:id/find,click,,
+findDailySales,verify sales,jas.app:id/split00_amt,verifyText,sales,
+findDailySales,verify return sales,jas.app:id/split01_amt,verifyText,salesReturn,
+findDailySales,verify purchase_return,jas.app:id/split02_amt,verifyText,purchaseReturn,
+findDailySales,verify text ,jas.app:id/snackbar_text,verifyText,text,

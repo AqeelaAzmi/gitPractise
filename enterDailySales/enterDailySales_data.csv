@@ -1,0 +1,30 @@
+Test Suite,Enabled,Description,sales,sales_Return,purchase,date,text
+enterDailySales,1,empty fields,,,,,Enter the sales amount Enter the purchase return amount Enter the sales return amount Set the date
+enterDailySales,1,"empty sales valid sales return , purchase_return and date",,2000,200,2022-11-01,Enter the sales amount
+enterDailySales,1,empty sales return valid sales  purchase_return and date,10000,,200,2022-11-02,Enter the sales return amount
+enterDailySales,1,"empty purchase_return valid sales, sales return   and date",10000,2000,,2022-11-03,Enter the purchase return amount
+enterDailySales,1,"empty date valid sales, sales return   and purchase_return",10000,2000,200,,Set the date
+enterDailySales,1,empty sales and empty sales_return valid  purchase_return and date,,,200,2022-11-04,Enter the sales amount Enter the sales return amount
+enterDailySales,1,empty sales and empty purchase_return valid  salesreturn and date,,2000,,2022-11-05,Enter the sales amount Enter the purchase return amount
+enterDailySales,1,empty sales and empty date valid  sales_return and purchase_return,,2000,200,,Enter the sales amount Set the date
+enterDailySales,1,empty sales_return and empty date valid  sales and purchase_return,10000,,200,,Enter the sales return amount Set the date
+enterDailySales,1,empty sales_return and empty  purchase_return  valid sales and date,10000,,,2022-11-06,Enter the purchase return amount Enter the sales return amount
+enterDailySales,1,empty purchase_return and empty date  valid sales_return   and sales,10000,2000,,,Enter the purchase return amount Set the date
+enterDailySales,1,empty sales empty sales_return and empty purchase_return valid date,,,,2022-11-08,Enter the sales amount Enter the purchase return amount Enter the sales return amount
+enterDailySales,1,empty sales empty purchase_return and empty date valid sales_return,,2000,,,Enter the sales amount Enter the purchase return amount Set the date
+enterDailySales,1,empty sales empty sales_return empty date and valid purchase_return,,,200,,Enter the sales amount Enter the sales return amount Set the date
+enterDailySales,1,empty sales_return empty purchase_return and empty date valid sales,10000,,,,Enter the purchase return amount Enter the sales return amount Set the date
+enterDailySales,1,added valid data ,10000,2000,200,2022-11-12,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales return must be smaller than sales,5000,5000,200,2022-08-15,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on 2022 september month,18000,700,200,2022-09-05,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year same month,7000,800,100,2022-09-24,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year different  month,3000,400,200,2022-10-15,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year different  month,4000,600,250,2022-11-06,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on 2021  octomber month,4500,800,150,2021-08-11,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year same month,6500,2000,100,2021-08-20,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year same  month,10500,4500,300,2021-08-15,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year different  month,6800,2500,400,2021-09-25,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on 2021 April   month,7500,3400,600,2020-04-15,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year same month,9500,2500,800,2020-04-25,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same year different  month,7500,3000,450,2020-05-08,SALES SAVED SUCCESSFULLY 
+enterDailySales,1,sales details on same date,8000,4000,350,2020-05-08,Daily sales on 2020-05-08 already saved

@@ -1,0 +1,9 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+enterDailySales,click the daily sales button,"//android.widget.ImageView[@content-desc=""More options""]",stpClick,,
+enterDailySales,click the daily sales button,"//android.widget.TextView[@text=""DAILY SALES""]",stpClick,,
+enterDailySales,input sales value,jas.app:id/split00_amt,input,sales,
+enterDailySales,input sales return value,jas.app:id/split01_amt,input,sales_Return,
+enterDailySales,input purchase return value,jas.app:id/split02_amt,input,purchase,
+enterDailySales,date value,jas.app:id/trans_acDate,input,date,
+enterDailySales,click the save button,jas.app:id/save,click,,
+enterDailySales,verify the error massage,jas.app:id/snackbar_text,verifyText,text,

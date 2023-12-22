@@ -1,0 +1,4 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+invoiceDetails,click the invoice list button,jas.app:id/invoicelist,stpClick,,
+invoiceDetails,Check status text,//android.widget.TextView[2],verifyText,status,
+invoiceDetails,click purchase row,//android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout,clickElement,row,
