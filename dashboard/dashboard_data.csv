@@ -1,0 +1,2 @@
+Test Suite,Enabled,Description,saAmount,puAmount,salesretAmount,pushaseretAmount,caPayment,chPayment
+dashboard,1,verify details in dashboard,8000,1000,200,100,1000,100

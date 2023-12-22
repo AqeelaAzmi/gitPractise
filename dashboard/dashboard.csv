@@ -1,0 +1,8 @@
+Test Suite,Description,Object,Action ,DataColumn,WaitAfter
+dashboard,click dashboard,zonoc.jas:id/dashboard,stpClick,,
+dashboard,verify sales amount,zonoc.jas:id/String_sales,verifyText,saAmount,
+dashboard,verify purchase amount,zonoc.jas:id/String_purchase,verifyText,puAmount,
+dashboard,verify sales return amount,zonoc.jas:id/String_salesret,verifyText,salesretAmount,
+dashboard,verify purchase return amount,zonoc.jas:id/String_puret,verifyText,pushaseretAmount,
+dashboard,verify cash payment ,zonoc.jas:id/String_cashpayment,verifyText,caPayment,
+dashboard,verify cheque payment,zonoc.jas:id/String_chequepayment,verifyText,chPayment,
